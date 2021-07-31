@@ -1,0 +1,48 @@
+/* footer */
+.footer {
+    background-image:linear-gradient(to top, #CA184D 0%, #E89A1E 100%);
+    
+    margin: 0px !important;
+    width: 100% !important;
+    padding:2rem;
+    
+}
+
+
+
+
+.footer h3 {
+    font-weight: bold;
+}
+
+.footer_links {
+    color:#333;
+    font-size: 2rem;
+}
+
+.footer_links:hover {
+    color:black;
+}
+
+.div_for_link_a {
+    display: inline-block;
+    text-align: left;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (min-width:768px) {
+
+    .footer_links {
+        color:#333;
+        font-size: 2.5rem;
+        display: block;
+    }
+
+
+ }

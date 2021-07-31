@@ -1,0 +1,43 @@
+.hero-box {
+   padding:2rem;
+}
+
+
+.hero-text {
+    font-size: 2.8rem;
+    text-align: left;
+}
+
+.meizon {
+    background: -webkit-linear-gradient(#CA184D, #E89A1E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+
+@media only screen and (min-width:768px) {
+
+
+    .hero-text {
+        font-size: 3rem;
+    }
+
+
+
+
+ }
+
+
+ @media only screen and (min-width:1024px) {
+
+
+    .hero-text {
+        font-size: 4.6rem;
+    }
+
+
+
+
+ }
