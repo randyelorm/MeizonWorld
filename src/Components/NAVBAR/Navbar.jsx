@@ -1,8 +1,7 @@
 import React from 'react';
 import "./navbar.css"
 import Logo from "../../Images/PNG.png"
-import { Link} from "react-router-dom"
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+
 
 
 
@@ -30,9 +29,9 @@ const Navbar = () => {
       
      
       <ul class="nav navbar-nav navbar-right">
-        <li> <Link link to = "/about"> About Us  </Link></li>
-        <li> <Link link to = "/specialty"> Our Specialty </Link></li>
-        <li> <Link link to = "/footer"> Get In Touch </Link></li>
+        <li> <a href = "/about"> About Us  </a></li>
+        <li> <a href to = "/specialty"> Our Specialty </a></li>
+        <li> <a href link to = "/footer"> Get In Touch </a></li>
        
         
       </ul>
