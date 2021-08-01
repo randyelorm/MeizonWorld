@@ -31,7 +31,7 @@ const About = () => {
         <div className ="container-fluid about-box col-sm-12">
            
                 
-              <h2 className = "about_text text-center about_title">  <span className = "meizon "> MEIZONs WORLD </span>  </h2> <br />
+              <h2 className = "about_text text-center about_title"> About <br />  <span className = "meizon "> MEIZON WORLD </span>  </h2> <br />
 
               <p className ="col-sm-6 about_info">
                 The word <span className = "meizon">MEIZON</span> is a Greek word that translates as that which is greater in quantity and in quality.
