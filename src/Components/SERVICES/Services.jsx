@@ -16,44 +16,48 @@ const PageThree = () => {
                         <h2 className = "text-center specialty_text">OUR SPECIALTY</h2>
 <span className = "first_three">
   <div class="col-sm-4">
-    <div class="thumbnail">
-    <div class="caption">
+    <div class="thumbnail thumb1">
+    <div >
         <h3 className = "text-center specialty_caption">LEADERSHIP TRAINING & GROOMING 
         <img src={Logo} className = "meizon_logo" alt="" /></h3>
+        <div className = "btn-box1"> <button className = "readmore-btn"> Read More </button> </div>
         
         
       </div>
       <img src={image1} alt="..." className ="img-responsive thumb_imgs"/>
       
-    <div className = "btn-box1"> <button className = "readmore-btn"> Read More </button> </div>
+   
     </div>
   </div>
 
 
 
   <div class="col-sm-4">
-    <div class="thumbnail">
-    <div class="caption">
+    <div class="thumbnail thumb2">
+    <div >
         <h3 className = "text-center specialty_caption">PERFORMANCE COACHING
         <img src={Logo} className = "meizon_logo" alt="" />  </h3>
-      
+        <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
         
       </div>
       <img src={image2} alt="..." className ="img-responsive thumb_imgs"/>
 
-      <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
+      
     </div>
   </div>
 
   <div class="col-sm-4">
-    <div class="thumbnail">
-    <div class="caption">
+    <div class="thumbnail thumb3">
+    <div>
         <h3 className = "text-center specialty_caption">PERSONALITY REFINING
         <img src={Logo} className = "meizon_logo" alt="" /> 
+ 
         </h3>
+
+        <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
       </div>
       <img src={image3} alt="..." className ="img-responsive thumb_imgs"/>
-       <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
+      
     </div>
   </div>
 
@@ -64,35 +68,38 @@ const PageThree = () => {
 
   <div class="col-sm-4">
     <div class="thumbnail">
-    <div class="caption">
+    <div >
         <h3 className = "text-center specialty_caption" >COMMUNICATION
         <img src={Logo} className = "meizon_logo" alt="" /> </h3>
+        <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
       </div>
       <img src={image4} alt="..." className ="img-responsive thumb_imgs"/>
-      <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
-    </div>
-  </div>
-
-  <div class="col-sm-4">
-    <div class="thumbnail">
-    <div class="caption">
-        <h3 className = "text-center specialty_caption">PUBLIC SPEAKING
-        <img src={Logo} className = "meizon_logo" alt="" /> </h3>
-      </div>
-      <img src={image5} alt="..." className ="img-responsive thumb_imgs" />
-      <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
      
     </div>
   </div>
 
   <div class="col-sm-4">
     <div class="thumbnail">
-    <div class="caption">
+    <div>
+        <h3 className = "text-center specialty_caption">PUBLIC SPEAKING
+        <img src={Logo} className = "meizon_logo" alt="" /> </h3>
+        <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
+      </div>
+      <img src={image5} alt="..." className ="img-responsive thumb_imgs" />
+     
+     
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="thumbnail thumb6">
+    <div>
         <h3 className = "text-center specialty_caption">CONFERENCE SPEAKING
-        <img src={Logo} className = "meizon_logo" alt="" /> </h3>    
+        <img src={Logo} className = "meizon_logo" alt="" /> </h3>  
+        <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>  
       </div>
       <img src={image6} alt="..." className ="img-responsive thumb_imgs"/>
-      <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
+ 
       
     </div>
   </div>

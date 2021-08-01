@@ -16,4 +16,4 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-<script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
+
