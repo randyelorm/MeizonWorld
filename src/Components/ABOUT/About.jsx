@@ -28,7 +28,7 @@ import Carou24 from "../../Images/24.jpg"
 
 const About = () => {
     return (
-        <div className ="container-fluid about-box col-sm-12">
+        <div className ="container-fluid about-box col-sm-12" id="about">
            
                 
               <h2 className = "about_text text-center about_title"> About <br />  <span className = "meizon "> MEIZON WORLD </span>  </h2> <br />

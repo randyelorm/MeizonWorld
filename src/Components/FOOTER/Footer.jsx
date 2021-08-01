@@ -4,7 +4,7 @@ import footerimg from "../../Images/message.svg"
 
 const Footer = () => {
     return (
-        <section className ="col-sm-12 footer " id = "Contact">
+        <section className ="col-sm-12 footer " id = "footer">
            
             <div className =" col-sm-6 social-media ">
               

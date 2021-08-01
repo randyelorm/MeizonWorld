@@ -1,6 +1,7 @@
 import React from 'react';
 import "./navbar.css"
 import Logo from "../../Images/PNG.png"
+import { Link } from 'react-scroll';
 
 
 
@@ -29,9 +30,14 @@ const Navbar = () => {
       
      
       <ul class="nav navbar-nav navbar-right">
-        <li> <a href = "/about"> About Us  </a></li>
-        <li> <a href to = "/specialty"> Our Specialty </a></li>
-        <li> <a href link to = "/footer"> Get In Touch </a></li>
+        <li> <Link to = "about" activeClass="active" spy={true} smooth={true}
+ > 
+                About Us  
+             </Link>
+        </li>
+
+        <li> < Link to = "specialty" activeClass="active" spy={true} smooth={true}> Our Specialty </Link> </li>
+        <li> <Link link to = "footer"  spy={true} smooth={true}> Get In Touch </Link></li>
        
         
       </ul>

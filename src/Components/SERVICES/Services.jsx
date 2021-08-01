@@ -13,7 +13,7 @@ const PageThree = () => {
     return (
     <>
 <div class="row thumbnails ">
-                        <h2 className = "text-center specialty_text">OUR SPECIALTY</h2>
+                        <h2 className = "text-center specialty_text" id = "specialty">OUR SPECIALTY</h2>
 <span className = "first_three">
   <div class="col-sm-4">
     <div class="thumbnail thumb1">
