@@ -6,6 +6,8 @@ import image3 from "../../Images/service3.svg"
 import image4 from "../../Images/service4.svg"
 import image5 from "../../Images/service5.svg"
 import image6 from "../../Images/service6.svg"
+import Logo from "../../Images/PNG.png"
+
 
 const PageThree = () => {
     return (
@@ -16,12 +18,14 @@ const PageThree = () => {
   <div class="col-sm-4">
     <div class="thumbnail">
     <div class="caption">
-        <h3 className = "text-center specialty_caption">LEADERSHIP TRAINING & GROOMING</h3>
+        <h3 className = "text-center specialty_caption">LEADERSHIP TRAINING & GROOMING 
+        <img src={Logo} className = "meizon_logo" alt="" /></h3>
         
         
       </div>
       <img src={image1} alt="..." className ="img-responsive thumb_imgs"/>
-     
+      
+    <div className = "btn-box1"> <button className = "readmore-btn"> Read More </button> </div>
     </div>
   </div>
 
@@ -30,22 +34,26 @@ const PageThree = () => {
   <div class="col-sm-4">
     <div class="thumbnail">
     <div class="caption">
-        <h3 className = "text-center specialty_caption">PERFORMANCE COACHING</h3>
+        <h3 className = "text-center specialty_caption">PERFORMANCE COACHING
+        <img src={Logo} className = "meizon_logo" alt="" />  </h3>
       
         
       </div>
       <img src={image2} alt="..." className ="img-responsive thumb_imgs"/>
-    
+
+      <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
     </div>
   </div>
 
   <div class="col-sm-4">
     <div class="thumbnail">
     <div class="caption">
-        <h3 className = "text-center specialty_caption">PERSONALITY REFINING</h3>
+        <h3 className = "text-center specialty_caption">PERSONALITY REFINING
+        <img src={Logo} className = "meizon_logo" alt="" /> 
+        </h3>
       </div>
       <img src={image3} alt="..." className ="img-responsive thumb_imgs"/>
-     
+       <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
     </div>
   </div>
 
@@ -57,19 +65,22 @@ const PageThree = () => {
   <div class="col-sm-4">
     <div class="thumbnail">
     <div class="caption">
-        <h3 className = "text-center specialty_caption" >COMMUNICATION</h3>
+        <h3 className = "text-center specialty_caption" >COMMUNICATION
+        <img src={Logo} className = "meizon_logo" alt="" /> </h3>
       </div>
       <img src={image4} alt="..." className ="img-responsive thumb_imgs"/>
-      
+      <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
     </div>
   </div>
 
   <div class="col-sm-4">
     <div class="thumbnail">
     <div class="caption">
-        <h3 className = "text-center specialty_caption">PUBLIC SPEAKING</h3>
+        <h3 className = "text-center specialty_caption">PUBLIC SPEAKING
+        <img src={Logo} className = "meizon_logo" alt="" /> </h3>
       </div>
-      <img src={image5} alt="..." className ="img-responsive thumb_imgs"/>
+      <img src={image5} alt="..." className ="img-responsive thumb_imgs" />
+      <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
      
     </div>
   </div>
@@ -77,9 +88,11 @@ const PageThree = () => {
   <div class="col-sm-4">
     <div class="thumbnail">
     <div class="caption">
-        <h3 className = "text-center specialty_caption">CONFERENCE SPEAKING</h3>    
+        <h3 className = "text-center specialty_caption">CONFERENCE SPEAKING
+        <img src={Logo} className = "meizon_logo" alt="" /> </h3>    
       </div>
       <img src={image6} alt="..." className ="img-responsive thumb_imgs"/>
+      <div className = "btn-box"> <button className = "readmore-btn">Read More</button> </div>
       
     </div>
   </div>

@@ -27,7 +27,34 @@
     color: #777777;
 }
 
+.meizon_logo {
+    width: 30px;
+    margin-left: 1rem;
+}
 
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.btn-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+.readmore-btn {
+    font-weight: bold;
+    background: -webkit-linear-gradient(#CA184D, #E89A1E);
+    border:none;
+    padding: 0.5rem;
+    border-radius: 50px;
+    color:black;
+
+
+}
 
 
 @media only screen and (min-width:768px) {
@@ -49,7 +76,8 @@
     
 
     .thumb_imgs {
-    width:50%;
+        width: 50%;
+     
     }
 
     .thumbnail {
@@ -66,6 +94,12 @@
 
 .caption h3 {
     font-size: 3rem !important;
+}
+
+
+.meizon_logo {
+    width: 40px;
+    margin-left: 1rem;
 }
 
    
