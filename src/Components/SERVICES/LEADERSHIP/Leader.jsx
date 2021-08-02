@@ -22,7 +22,7 @@ const history = useHistory();
                                 <div class=" nav_head">
                                 
                                 <a class="navbar-brand" href="#"> <img src={Logo} className ="img-responsive smalllogo" alt="" /> </a>
-                                <h4 className = "leadership_head">LEADERSHIP TRAINING & GROOMING</h4> 
+                                <h4 className = "module_head">LEADERSHIP TRAINING & GROOMING</h4> 
                                 </div>
 
                             

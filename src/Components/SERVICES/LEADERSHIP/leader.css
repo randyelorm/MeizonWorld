@@ -1,7 +1,8 @@
 .nav_head {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    
    
 }
 
@@ -11,11 +12,11 @@
     margin-top: 1rem;
 }
 
-.leadership_head {
-    font-size: 1.4rem;
+.module_head {
+    font-size: 1.8rem;
     font-weight: bold;
     color: #CA184D !important;
-    margin-left: 1rem;
+    margin-right: 1rem;
     
 }
 
@@ -62,7 +63,7 @@ font-weight: bold;
 
 @media only screen and (min-width:768px) { 
 
-        .leadership_head {
+        .module_head {
             font-size: 3rem;
         }
 

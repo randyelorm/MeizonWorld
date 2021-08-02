@@ -197,7 +197,7 @@ const About = () => {
 
                 <div className = "founder_row row col-sm-12">
 
-                    <div className = "text-center header_text"> <h2> Words From Our Founder</h2></div> <br />
+                    <div className = "text-center header_text"> <h2> Words From The Founder</h2></div> <br />
 
                     <div className = "col-sm-6 founder_words">
                         <div>
