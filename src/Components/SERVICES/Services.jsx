@@ -29,7 +29,7 @@ const PageThree = () => {
         <img src={Logo} className = "meizon_logo" alt="" /></h3>
         <div className = "btn-box1"> <button className = "readmore-btn">
               
-                   <Link to = "/leadership">Read More</Link> 
+                   <Link to = "/leadership" className = "links">Read More</Link> 
           
            
            </button> </div>
@@ -51,7 +51,7 @@ const PageThree = () => {
         <img src={Logo} className = "meizon_logo" alt="" />  </h3>
         <div className = "btn-box"> <button className = "readmore-btn">
           
-         <Link to = "/performance">Read More</Link> 
+         <Link to = "/performance" className = "links">Read More</Link> 
         
         </button> </div>
         
@@ -72,7 +72,7 @@ const PageThree = () => {
 
         <div className = "btn-box"> <button className = "readmore-btn">
           
-        <Link to = "/personality">Read More</Link>  
+        <Link to = "/personality" className = "links">Read More</Link>  
           
           
           </button> </div>
@@ -94,7 +94,7 @@ const PageThree = () => {
         <img src={Logo} className = "meizon_logo" alt="" /> </h3>
         <div className = "btn-box"> <button className = "readmore-btn">
           
-        <Link to = "/communication">Read More</Link>  
+        <Link to = "/communication" className = "links">Read More</Link>  
           
           </button> </div>
       </div>
@@ -110,7 +110,7 @@ const PageThree = () => {
         <img src={Logo} className = "meizon_logo" alt="" /> </h3>
         <div className = "btn-box"> <button className = "readmore-btn">
           
-        <Link to = "/publicspeaking">Read More</Link>  
+        <Link to = "/publicspeaking" className = "links">Read More</Link>  
           
           </button> </div>
       </div>
@@ -127,7 +127,7 @@ const PageThree = () => {
         <img src={Logo} className = "meizon_logo" alt="" /> </h3>  
         <div className = "btn-box"> <button className = "readmore-btn">
           
-        <Link to = "/conferencespeaking">Read More</Link>  
+        <Link to = "/conferencespeaking" className = "links">Read More</Link>  
           
           </button> </div>  
       </div>

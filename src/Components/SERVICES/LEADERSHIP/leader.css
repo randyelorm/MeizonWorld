@@ -15,6 +15,7 @@
     font-size: 1.4rem;
     font-weight: bold;
     color: #CA184D !important;
+    margin-left: 1rem;
     
 }
 
@@ -31,30 +32,13 @@ font-weight: bold;
 }
 
 .body_text {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    padding:1rem;
+    background-color: #F3F2EF;
     
 }
 
-.body1_box {
-   
-    background-color: lightgray;
-    font-size: 1rem;
-}
 
-.body2_box {
-    background-color: lightgray;
-    font-size: 1rem;
-}
-
-.body3_box {
-    background-color: lightgray;
-    font-size: 1rem;
-}
-
-.body4_box {
-    background-color: lightgray;
-    font-size: 1rem;
-}
 
 .go_back_btn_div {
     display: flex;
@@ -64,6 +48,13 @@ font-weight: bold;
 
 .go_back_btn {
     padding:1rem;
+    background-color: #3F3D56;
+    font-weight: bold !important;
+    color:white;
+}
+
+.to_bold {
+    font-weight: bold;
 }
 
 
@@ -100,29 +91,13 @@ font-weight: bold;
         }
 
         .body_text {
+            padding:1rem;
             font-size: 2rem;
-        }
-
-        .body1_box {
             margin-top: 2rem;
-            background-color: lightgray;
-            font-size: 3rem;
-        }
-       
-        .body2_box {
-            background-color: lightgray;
-            font-size: 3rem;
+          
         }
 
-        .body3_box {
-            background-color: lightgray;
-            font-size: 3rem;
-        }
-
-        .body4_box {
-            background-color: lightgray;
-            font-size: 3rem;
-        }
+      
 
         
 

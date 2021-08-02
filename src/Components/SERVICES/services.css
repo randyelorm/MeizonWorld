@@ -57,6 +57,9 @@
 
 }
 
+.links {
+    color:black;
+}
 
 @media only screen and (min-width:768px) {
 
@@ -74,6 +77,11 @@
     transition: 0.4s ease;
     cursor: pointer;
     } */
+
+
+    .links:hover {
+        color:black;
+    }
 
     
 
