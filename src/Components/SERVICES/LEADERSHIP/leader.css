@@ -1,0 +1,131 @@
+.nav_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+}
+
+.smalllogo {
+    width:50px;
+    margin-right: 1rem !important;
+    margin-top: 1rem;
+}
+
+.leadership_head {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #CA184D !important;
+    
+}
+
+.container-fluid {
+    padding: 0rem !important;
+}
+
+.quote_heading {
+
+font-size: 2rem;
+text-align: center;
+margin-top: 1rem;
+font-weight: bold;
+}
+
+.body_text {
+    font-size: 1rem;
+    
+}
+
+.body1_box {
+   
+    background-color: lightgray;
+    font-size: 1rem;
+}
+
+.body2_box {
+    background-color: lightgray;
+    font-size: 1rem;
+}
+
+.body3_box {
+    background-color: lightgray;
+    font-size: 1rem;
+}
+
+.body4_box {
+    background-color: lightgray;
+    font-size: 1rem;
+}
+
+.go_back_btn_div {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.go_back_btn {
+    padding:1rem;
+}
+
+
+
+
+@media only screen and (min-width:768px) { 
+
+        .leadership_head {
+            font-size: 3rem;
+        }
+
+        .quote_heading {
+            font-size: 4rem;
+            }
+
+        .performance_body  {
+            padding:1rem !important;
+            margin: 0rem !important;
+        }
+
+        body {
+            padding:0rem !important;
+            margin: 0rem;
+        }
+
+        .col-sm-12 {
+            padding:0rem;
+        }
+             
+
+        .smalllogo {
+            width:80px;
+            margin-right: 1rem !important;
+        }
+
+        .body_text {
+            font-size: 2rem;
+        }
+
+        .body1_box {
+            margin-top: 2rem;
+            background-color: lightgray;
+            font-size: 3rem;
+        }
+       
+        .body2_box {
+            background-color: lightgray;
+            font-size: 3rem;
+        }
+
+        .body3_box {
+            background-color: lightgray;
+            font-size: 3rem;
+        }
+
+        .body4_box {
+            background-color: lightgray;
+            font-size: 3rem;
+        }
+
+        
+
+        
+
+}

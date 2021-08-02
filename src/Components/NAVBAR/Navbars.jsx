@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState}from 'react';
 import "./navbar.css"
 import Logo from "../../Images/PNG.png"
 import { Link } from 'react-scroll';
@@ -6,13 +6,20 @@ import { Link } from 'react-scroll';
 
 
 
-const Navbar = () => {
+const Navbars = () => {
+
+ 
+
+
     return (
         <div>
 
 <div  className ="row">
 
-<nav class="navbar navbar-default">
+
+
+
+<nav class="navbar navbar-default" >
   <div class="nav_container container-fluid">
  
     <div class="navbar-header">
@@ -26,21 +33,23 @@ const Navbar = () => {
     </div>
 
    
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" collapseOnSelect id="bs-example-navbar-collapse-1">
       
      
       <ul class="nav navbar-nav navbar-right">
-        <li> <Link to = "about" activeClass="active" spy={true} smooth={true}
+        <li> <Link to = "about" activeClass="active" spy={true} smooth={true} 
  > 
                 About Us  
              </Link>
         </li>
 
-        <li> < Link to = "specialty" activeClass="active" spy={true} smooth={true}> Our Specialty </Link> </li>
-        <li> <Link link to = "footer"  spy={true} smooth={true}> Get In Touch </Link></li>
+        <li> < Link to = "specialty" activeClass="active" spy={true} smooth={true} > Our Specialty </Link> </li>
+        <li> <Link link to = "footer"  spy={true} smooth={true}  > Get In Touch </Link></li>
        
         
       </ul>
+
+           
     </div>
   </div>
 </nav>
@@ -49,7 +58,9 @@ const Navbar = () => {
 
 
         </div>
-    );
+ 
+   );
+
 }
 
-export default Navbar;
+export default Navbars;

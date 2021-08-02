@@ -2,6 +2,9 @@ body {
    
     font-family: 'Montserrat', sans-serif !important;
     overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0rem !important;
+
    
     
    }
@@ -12,6 +15,8 @@ body {
     scroll-behavior: smooth;
     width: 100%;
     overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0rem !important;
    
 }
 /* Navbar */
@@ -23,6 +28,7 @@ nav {
     padding:2rem;
     
 }
+
 
 
 
