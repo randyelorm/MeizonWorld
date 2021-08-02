@@ -1,7 +1,36 @@
-.about-box {
+.about_containter {
+    background-image: url("../../Images/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+
+
+
+.about_nd-carou_row {
  
     margin-bottom: 2rem ;
+    padding: 1.5rem !important;
+    
+   
+  
 }
+
+
+.about_title {
+    font-size: 2.5rem !important;
+}
+
+
+.about_info {
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 4rem;
+    
+}
+
 
 h2 {
     margin: 0rem !important;
@@ -22,32 +51,7 @@ h2 {
     margin-bottom: 0rem !important;
 }
 
-.about_info {
-    font-size: 1.8rem;
-    text-align: left;
-    margin-bottom: 4rem;
-    
-}
 
-.about-box  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../../Images/back.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-  
-}
-
-.about_title {
-    font-size: 2.5rem !important;
-}
-
-.about-box {
-    padding:2rem;
-}
 
 
 .acronym {
@@ -62,7 +66,77 @@ h2 {
 
 
 
+.founderimg {
+
+    margin-bottom: 3rem;
+}
+
+
+.founder_words {
+    
+    text-align: center;
+    
+   
+}
+
+.founder_name {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header_text {
+    font-weight: bold;
+    color:  #0D202B;
+}
+
+
+
+
+
 @media only screen and (min-width:768px) {
+ 
+
+    .about_info {
+        font-size: 1.6rem;
+        text-align: left;
+      
+    }
+
+    .founderimg {
+        width: 85%;
+        margin-bottom: 3rem;
+       
+    }
+
+    .founder_words {
+        font-size: 2rem;
+        padding-left: 3rem;
+        text-align: left;
+        
+    
+       
+    }
+
+
+    .founder_name {
+        margin-top: 0.5rem;
+       
+        text-align: left;
+    }
+
+    
+
+    .header_text >h2 {
+        font-size: 4rem;
+    }
+
+
+ }
+
+
+
+ @media only screen and (min-width:1024px) {
  
     .about_text {
         font-weight: bold;
@@ -71,15 +145,116 @@ h2 {
       
     }
 
+
+
     .about_info {
-        font-size: 2.7rem;
-        width: 100%;
+        font-size: 2.5rem;
         text-align: left;
       
     }
 
+    
+
     .about-box {
+
         padding:2rem;
+        display: flex !important;
+        flex-direction: row;
+       
     }
+
+
+
+ }
+
+
+
+ @media only screen and (min-width:1024px) {
+
+
+
+
+    .about_info {
+        font-size: 2rem;
+      
+      
+    }
+    .founder_words {
+        font-size: 2.7rem;
+        
+    
+       
+    }
+
+    
+
+   
+
+ }
+
+
+ @media only screen and (min-width:1201px) {
+
+
+
+
+    .about_info {
+        font-size: 2.7rem;
+      
+      
+    }
+    
+    .header_text {
+        margin-top: 2rem !important;
+    }
+
+    .founder_words {
+        font-size: 3.4rem;
+        
+    
+       
+    }
+    
+
+   
+
+ }
+
+
+
+
+
+ @media only screen and (min-width:1440px) {
+
+
+
+
+    .about_info {
+        font-size: 3.2rem;
+      
+      
+    }
+
+    .founder_words {
+        font-size: 3.8rem;
+        
+    
+       
+    }
+
+
+    
+
+    .header_text >h2 {
+        font-size: 5rem !important;
+       
+    }
+
+   
+
+
+    
+
+   
 
  }

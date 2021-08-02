@@ -10,6 +10,8 @@ import Personality from "./Components/SERVICES/PERSONALITY/Personality"
 import Communication from "./Components/SERVICES/COMMUNICATION/Communication"
 import PublicSpeaking from "./Components/SERVICES/PUBLICSPEAKING/PublicSpeaking"
 import Conference from "./Components/SERVICES/CONFERENCE/Conference"
+import ScrollToTop from "./ScrollToTop"
+
 
 
 
@@ -18,7 +20,7 @@ function App() {
     <div>
    
    <Router>
-   
+   <ScrollToTop>
      <Switch>
           <Route exact path = "/">
             <Navbars/>
@@ -28,6 +30,7 @@ function App() {
             <Footer/>
          </Route>
 
+         
          <Route component = {Leader}  path = "/leadership" />
          <Route component = {Performance} path = "/performance" />
          <Route component = {Personality} path = "/personality" />
@@ -37,7 +40,7 @@ function App() {
          
         
       </Switch>
-     
+      </ScrollToTop>
    </Router>
 
       </div>
